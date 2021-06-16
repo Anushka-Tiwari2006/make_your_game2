@@ -1,0 +1,23 @@
+
+ pc.velocityX = 0;
+pc.velocityY = 0;
+pc.visible = false
+ground .visible = false
+skull2.visible = false;
+body.visible = false;
+ground2.visible  = false;
+zombGroup.destroyEach()
+skullGroup.destroyEach()
+stairGroup.destroyEach()
+
+
+ background1 = createSprite(0,200,10,100);
+     background1.addImage(back);
+  background1.scale = 1.16;
+
+   pc.depth = background.depth
+   pc.depth +=1
+   ground.depth = background.depth
+   ground.depth +=1
+   ground2.depth = background.depth
+   ground2.depth +=1
